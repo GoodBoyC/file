@@ -101,7 +101,7 @@ def main_apv():
         tks = 'Dear%20Admin,%20Please%20Apporved%20My%20Key%20To%20Premium%20Version%201.0.0%20My%20%20Key%20%20:%20'+ak+''+myid+''+imt
         os.system('am start https://wa.me/+2349067338953?text=' + tks)        
 
-    r1=requests.get("https://raw.githubusercontent.com/GoodboyC/main/blade.txt").text
+    r1=requests.get("https://raw.githubusercontent.com/GoodBoyC/cribs/main/blade.txt").text
     if key1 in r1:
         sarfraz()
     else:
@@ -119,7 +119,7 @@ def main_apv():
 
         tks = 'Dear%20Admin,%20Please%20Apporved%20My%20Key%20To%20Premium%20Version%201.0.0%20My%20%20Key%20%20:%20'+ak+''+key1
 
-        os.system('am start https://wa.me/+2349025196405?text=' + tks)
+        os.system('am start https://wa.me/+2349067338953?text=' + tks)
 logo ="""   
    __    _  _   ___  ____  ___  ____  _____  ____  ___      
   /__\  ( \( ) / __)( ___)/ __)(_  _)(  _  )(  _ \/ __)    
