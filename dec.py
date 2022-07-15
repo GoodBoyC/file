@@ -72,7 +72,7 @@ def jalan(z):
         sys.stdout.flush()
         time.sleep(0.01)
 
-def main_apv()
+def main_apv():
 logo ="""   
    __    _  _   ___  ____  ___  ____  _____  ____  ___      
   /__\  ( \( ) / __)( ___)/ __)(_  _)(  _  )(  _ \/ __)    
