@@ -1,6 +1,4 @@
-# Decompile by Younis-John (Handsome)
-# Time Succes decompile : 2022-05-24 12:40:20.629263
-# WhatsApp - +923404708884 
+
 #!/usr/bin/python3
 import os
 try:
@@ -73,53 +71,7 @@ def jalan(z):
         sys.stdout.write(e)
         sys.stdout.flush()
         time.sleep(0.01)
-def main_apv():
 
-    imt="MRTOO"
-    ak="GVT"
-    os.system('clear')
-    print(logo)
-    try:
-        key1=open('/data/data/com.termux/files/usr/bin/.FSFS-cov', 'r').read()
-    except IOError:
-        os.system("clear")
-        print(logo)
-        print ("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
-        print ("  Your Token Is Not Approved Already")
-        print ("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
-        myid = uuid.uuid4().hex[:20].upper()
-        print ("  YOUR KEY : "+ak+myid+imt)
-        print ("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
-        kok=open('/data/data/com.termux/files/usr/bin/.FSFS-cov', 'w')
-        kok.write(myid+imt)
-        kok.close()
-        print ("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
-        print ("  Send Me Your Key On WhatsApp Approval ")
-        print ("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
-        input('\n Press Enter For Approve Your Key ')
-        time.sleep(3.5)
-        tks = 'Dear%20Admin,%20Please%20Apporved%20My%20Key%20To%20Premium%20Version%201.0.0%20My%20%20Key%20%20:%20'+ak+''+myid+''+imt
-        os.system('am start https://wa.me/+2349025196405?text=' + tks)        
-
-    r1=requests.get("https://raw.githubusercontent.com/Ancestors45/Paid/main/Apv.txt").text
-    if key1 in r1:
-        sarfraz()
-    else:
-        os.system("clear")
-        print(logo)
-        print ("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
-        print ("  Your Token Is Not Approved Already")
-        print ("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
-        print ("  YOUR KEY : "+ak+key1+imt)
-        print ("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
-        print ("  Send Me Your Key On WhatsApp Approval ")
-        print ("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
-        input('\n Press Enter For Approve Your Key ')
-        time.sleep(3.5)
-
-        tks = 'Dear%20Admin,%20Please%20Apporved%20My%20Key%20To%20Premium%20Version%201.0.0%20My%20%20Key%20%20:%20'+ak+''+key1
-
-        os.system('am start https://wa.me/+2349025196405?text=' + tks)
 logo ="""   
    __    _  _   ___  ____  ___  ____  _____  ____  ___      
   /__\  ( \( ) / __)( ___)/ __)(_  _)(  _  )(  _ \/ __)    
